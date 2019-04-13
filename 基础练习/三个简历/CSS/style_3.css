@@ -1,0 +1,28 @@
+h1,.main{
+    margin:0;
+}
+.title{
+    background-color: gray;
+    line-height: 80px;
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border:none;
+}
+tr{
+    border-bottom: rgba(128, 128, 128, 0.42) solid;
+    border-right: rgba(128, 128, 128, 0.42) solid;
+}
+.main_left{
+    background-color: rgba(128, 128, 128, 0.42);
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+.main_right{
+    padding-left: 20px;
+    vertical-align: top;
+}

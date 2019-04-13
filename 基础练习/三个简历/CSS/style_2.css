@@ -1,0 +1,21 @@
+.left{
+    display: inline-block;
+    width:200px;
+    height:800px;
+    float: left;
+    background-color: #3ba7de;
+    margin-right: 30px;
+}
+.title{
+    text-align: center;
+    padding-top:50px;
+}
+.title h1{
+    color: #FFFFFF;
+}
+.right{
+    display: inline-block;
+    height:800px;
+    float: left;
+
+}
