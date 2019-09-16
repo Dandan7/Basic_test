@@ -1,0 +1,227 @@
+/* 页面中间部分 start */
+.grid{
+    height: 480px;
+}
+.grid-col1{
+    width: 190px;
+    height: 100%;
+    background-color: #6e6568;
+}
+.grid-col1 ul{
+    margin: 10px 0;
+}
+.grid-col1 ul li{
+    padding-left: 12px;
+    color: #ffffff;
+    font-size: 14px;
+    height: 29px;
+    line-height: 26px;
+}
+.grid-col1 ul li:hover{
+    background-color: #9b999a;
+}
+.grid-col1 a{
+    margin: 0 3px;
+    color: #ffffff;
+    font-size: 14px; 
+    font-family: microsoft yahei;
+}
+.grid-col1 a:hover{
+    color: #f10215;
+}
+.grid-col2{
+    width: 790px;
+    height: 100%;
+    margin-left: 10px;
+}
+.grid-col2 .top{
+    position: relative;
+}
+.grid-col2 .top .shadow1{
+    width: 30px;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.3);
+    color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px;
+    font-family: Arial;
+    font-weight: normal;
+}
+.grid-col2 .top .shadow1:hover{
+    color: #f10215;
+}
+.grid-col2 .top .shadow2{
+    width: 30px;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.3);
+    color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px;
+}
+.grid-col2 .top .shadow2:hover{
+    color: #f10215;
+}
+.grid-col2 .top .dian{
+    position: absolute;
+    width: 167px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-left: 8px;
+}
+.grid-col2 .top .dian li{
+    float: left;
+    margin: 4px;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.grid-col2 .top .dian .current{
+    background-color: #f10215;
+}
+.grid-col2 .bottom div{
+    float: left;
+    margin-top: 10px;   
+}
+.grid-col2 .bottom div:last-child{
+    float: right;
+}
+.grid-col3{
+    width: 190px;
+    height: 100%;
+}
+.grid-col3 .login{
+    padding: 15px;
+    height: 85px;
+    background-color: #fff;
+    border-bottom: 1px solid #cccccc;
+}
+.grid-col3 .login .login-t{
+    height: 60px;
+    width: 95px;
+    font-size: 12px;
+    white-space: nowrap;/*强制不换行*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 60px;
+    color: #666666;
+    line-height: 20px;
+    position: relative;
+}
+.grid-col3 .login .login-t a{
+    color: #666666;
+}
+.grid-col3 .login .login-t a:hover{
+    color: #f10215;
+}
+ .user-info{
+    width: 50px;
+    height: 50px;
+    background: url(../images/sprite_userinfo@1x.png) no-repeat -70px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.user-info img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.login-b a{
+    font-size: 12px;
+    border: 2px solid #f10215 ;
+    padding: 2px 10px;
+    color: #f10215;
+    height: 20px;
+    line-height: 20px;
+    width: 70px;
+}
+.grid-col3 .news{
+    height: 154px;
+    padding: 7px 13px 0;
+    border-bottom: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+.news-t{
+    border-bottom: 1px solid #cccccc;
+    height: 19px;
+    position: relative;
+}
+.news-t a{
+    height: 17px;
+    line-height: 17px;  
+    font-size: 12px;
+    float: left;
+}
+.news-t .cuxiao{
+    width: 38px;
+    border-right: 1px solid #cccccc;
+}
+.news-t .gg{
+    margin-left: 15px;
+}
+.news-t .gd{
+    margin-left: 60px;
+}
+.news-red{
+    width: 28px;
+    height: 2px;
+    background-color: #f10215;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+}
+.news-b{
+    padding-top: 15px;
+}
+.news-b li{
+    height: 24px;
+    line-height: 24px;
+}
+.news-b a{
+    font-size: 12px;
+}
+.grid-col3 .expand{
+    height: 209px;
+}
+.expand ul li{
+    width: 46px;
+    border-top: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    height: 69px;
+    float: left;
+}
+.expand ul li a{
+    padding-top: 15px;
+    display: block;
+    text-align: center;
+}
+.expand ul li i{
+    background: url(../images/sprite_fs@1x.png) no-repeat;
+    width: 18px;
+    height: 23px;
+    margin: 0 auto;
+    display: block;
+}
+.expand ul li i:nth-child(1){
+    background-position: -3px -88px;
+}
+.expand span{
+    font-size: 12px;
+
+}
